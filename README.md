@@ -1,1 +1,1 @@
-# projetNodeJS
+Le code du cours, réécrit par moi, commenté de manière exhaustive.

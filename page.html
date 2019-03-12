@@ -1,0 +1,72 @@
+<!doctype>
+<html>
+<HEAD>RPG <link rel="stylesheet" type="text/css" href="css/style.css"></HEAD>
+<meta charset="UTF-8">
+
+<body>
+  <div id="form">
+  <div>
+    <label for="uname">Nom du personnage:</label>
+    <input type="text" id="nom" name="name">
+  </div>
+  <div>
+    <label for="uname">intelligence :</label>
+    <input type="number" id="intel" name="name">
+  </div>
+  <div>
+    <label for="uname">agilite :</label>
+    <input type="number" id="agi" name="name">
+  </div>
+  <div>
+    <label for="uname">force :</label>
+    <input type="number" id="fo" name="name">
+  </div>
+  <div>
+    <label for="uname"> points de vies :</label>
+    <input type="number" id="hp" name="name">
+  </div>
+  <div>
+    <button onclick="createPerso()">Creer personnage</button>
+  </div>
+
+</div></div>
+ <div id="tab">
+
+ </div>
+<div>
+ <div>
+    <button id="ouest" onclick="go(this.id)">Ouest</button>
+  </div>
+
+  <div>
+    <button id="est" onclick="go(this.id)">Est</button>
+  </div>
+
+  <div>
+    <button id="nord" onclick="go(this.id)">Nord</button>
+  </div>
+
+  <div>
+    <button id="sud" onclick="go(this.id)">Sud</button>
+  </div>
+</div>
+
+
+
+  <div>
+    <button id="load" onclick="load()">LOAD</button>
+  </div>
+
+  
+
+
+<div id="affichageDeplacement"></div>
+<div id="position"></div>
+
+<div id="evenement"></div>
+</body>
+
+</html>
+
+
+<script src="javascript/joueur.js" type="text/javascript"></script>
